@@ -28,5 +28,17 @@ Both implementations share the following core configurations:
 ## Dependencies
 * `torch`, `torchvision`, `tensorflow`, `numpy`, `matplotlib`, `Pillow`.
   
+## Result
+
+The third image is the stylized image with the smallest loss, the fourth image is the stylized image at iteration 1000.
+
+![Model Output](./images/keras_result.png)
+
+**TensorFlow (Keras) Result**
+
+![Model Output](./images/torch_result.png)
+
+**Pytorch Result**
+
 ## References
 Gatys, L. A., Ecker, A. S., & Bethge, M. (2015). [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576). *arXiv preprint arXiv:1508.06576*.
